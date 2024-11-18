@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+main{
+    columns: 2;
+    padding: 10px;
+}
+
+div.titulo{
+    width: 75vw; 
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+p.titulo{
+    font-size: 20px;
+}
+
+div.emails{
+    direction: rtl;
+    width: 65vw;
+}
+
+div.nomes{
+    direction: rtl;
+    width: 61vw;
+}
+
+p.emails{
+    color: rgb(71, 71, 187);
+    word-spacing: 3px;
+}
+
+.modelo_if{
+    width: 400px;
+}
+
+.modelo_fice{
+    width: 350px;
+}
+
+img.tabela1{
+    width: 35vw;
+    height: 35vh;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-size: 25px;
+}
+
+p{
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+header::after {
+    content: " ";
+    position: absolute;
+    background-color: #2C9303;
+    right: 0;
+    top: 10vw;
+    width: 94%;
+    height: 3.3vw;
+    clip-path: polygon(0 0, 99% 15%, 99.2% 100%);
+}
+
+header::before {
+    content: " ";
+    position: absolute;
+    background-color: #1D6904;
+    right: 0;
+    top: 11vw;
+    width: 85%;
+    height: 4.6vw;
+    clip-path: polygon(0 0, 99.3% 63%, 99.4% 100%);
+}
+
+footer::after {
+    content: " ";
+    position: absolute;
+    background-color: #2C9303;
+    left: 0;
+    width: 94%;
+    height: 3.3vw;
+    clip-path: polygon(99.2% 100%, 1% 85%, 0 0);
+}
+
+footer::before {
+    content: " ";
+    position: absolute;
+    background-color: #1D6904;
+    left: 0;
+    width: 85%;
+    height: 4.6vw;
+    clip-path: polygon(99.4% 100%, 0.7% 37%, 0 0);
+}
+
+
+
+
